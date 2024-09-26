@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 
 
 # Set your SerpAPI key as an environment variable
-#os.environ["SERPAPI_API_KEY"] = "SERPAPI_API_KEY"
-#os.environ["OPENAI_API_KEY"] = "OPENAI_API_KEY"
+os.environ["SERPAPI_API_KEY"] = "SERPAPI_API_KEY"
+os.environ["OPENAI_API_KEY"] = "OPENAI_API_KEY"
 
 # Initialize the SerpAPIWrapper
 

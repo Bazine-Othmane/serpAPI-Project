@@ -17,8 +17,8 @@ params = {
     "google_domain": "google.com",
     "api_key": "SERPAPI_API_KEY"
 }
-#os.environ["SERPAPI_API_KEY"] = "SERPAPI_API_KEY"
-#os.environ["OPENAI_API_KEY"] = "OPENAI_API_KEY"
+os.environ["SERPAPI_API_KEY"] = "SERPAPI_API_KEY"
+os.environ["OPENAI_API_KEY"] = "OPENAI_API_KEY"
 
 # Perform the search
 search = search(params).as_dict()
