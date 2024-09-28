@@ -1,5 +1,4 @@
 from langchain_community.utilities.serpapi import SerpAPIWrapper
-from langchain_community.utilities.serpapi import SerpAPIWrapper
 from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 import os
